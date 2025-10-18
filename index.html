@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="icon">
+      <i class="fa-solid fa-phone"></i><span>(123) 456-789-1230</span>
+      <i class="fa-solid fa-envelope"></i><span>info.colorlib@gmail.com</span>
+    </div>
+    <div class="social-icon">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-solid fa-glasses"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-evenly border w-100">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.png.webp" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <a class="nav-link" href="#">Rooms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About US</a>
+          </li>
+
+
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">- Home</a></li>
+              <li><a class="dropdown-item" href="#">- Rooms</a></li>
+              <li><a class="dropdown-item" href="#">- Single Rooms</a></li>
+              <li><a class="dropdown-item" href="#">- About US</a></li>
+              <li><a class="dropdown-item" href="#">- Blog</a></li>
+              <li><a class="dropdown-item" href="#">- Contact</a></li>
+              <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  - Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </ul>
+        </div>
+              <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+        </ul>
+  </nav>
+  <div id="carouselExample" class="carousel slide">
+    <div class="text">
+      <h6>HOTEL & RESORT</h6>
+      <h2>Welcom To Our Roberto</h2>
+      <button>Discover Now</button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/16.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/17.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/18.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="check">
+    <div class="input">
+      <p>Check In</p>
+      <input type="date">
+    </div>
+    <div class="input">
+      <p>Check Out</p>
+      <input type="date">
+    </div>
+    <div class="input">
+      <p>Room</p>
+      <select>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+      </select>
+    </div>
+    <div class="input">
+      <p>Adult</p>
+      <select>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+      </select>
+    </div>
+    <div class="input">
+      <p>Children</p>
+      <select>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+      </select>
+    </div>
+    <div class="btn">
+      <button>Check Availability</button>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="about-part">
+      <p>ABOUT US</p>
+      <h2>Welcome to Roberto Hotel Luxury</h2>
+      <p>With over 340 hotels worldwide, NH Hotel Group offers a wide variety of hotels catering for a perfect stay no
+        matter where your destination.</p>
+      <p>Manager: <span> Michen Taylor</span></p>
+      <img src="images/signature.png" alt="signature">
+    </div>
+    <div class="img">
+      <div class="left">
+        <img src="images/13.jpg" alt="image">
+        <img src="images/14.jpg" alt="image">
+      </div>
+      <div class="right">
+        <img src="images/15.jpg" alt="image">
+      </div>
+    </div>
+  </div>
+
+  <div class="sq">
+    <div class="square">
+      <p><img src="images/icon-1.png" alt="icon"></p>
+      <p>Transportion</p>
+    </div>
+    <div class="square">
+      <p><img src="images/icon-2.png" alt="icon"></p>
+      <p>Reiservice</p>
+    </div>
+    <div class="square">
+      <p><img src="images/icon-3.png" alt="icon"></p>
+      <p>Spa Relaxtion</p>
+    </div>
+    <div class="square">
+      <p><img src="images/icon-4.png" alt="icon"></p>
+      <p>Restaurant</p>
+    </div>
+    <div class="square">
+      <p><img src="images/icon-4.png" alt="icon"></p>
+      <p>Bar & Juice</p>
+    </div>
+  </div>
+
+  <div id="room">
+    <div class="img"><img src="images/17.jpg" alt="image"></div>
+    <div class="right">
+      <h2>Best King Room</h2>
+      <h4>125$ <sub>/ Day</sub></h4>
+      <p><i class="fa-solid fa-check"></i> Size: 30 ft</p>
+      <p><i class="fa-solid fa-check"></i> Capacity: 30 ft</p>
+      <p><i class="fa-solid fa-check"></i> Bed: 30 ft</p>
+      <p><i class="fa-solid fa-check"></i> Services: 30 ft</p>
+      <button>View Details</button>
+    </div>
+  </div>
+
+  <div class="testinomial">
+    <div class="left">
+      <img class="img23" src="https://preview.colorlib.com/theme/roberto/img/bg-img/10.jpg" alt="image">
+    </div>
+    <div class="right">
+      <p>TESTINOMIAL</p>
+      <h2>Our Guests Love Us</h2>
+      <p class="b">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem, excepturi officia
+        dolorum neque tempora cupiditate hic quis tenetur exercitationem assumenda delectus quasi sapiente quia
+        deleniti, praesentium rerum? Voluptatum, fugiat".</p>
+      <p>Robert Brown - <span>CEO Deercreative</span></p>
+    </div>
+  </div>
+
+  <section id="blog-section">
+    <p class="section-subtitle">OUR BLOG</p>
+    <h2 class="section-title">Latest News & Event</h2>
+
+    <div class="blog-container">
+      <div class="blog-card">
+        <div class="blog-image">
+          <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/2.jpg" alt="Dining Room">
+        </div>
+        <div class="blog-content">
+          <div class="meta-data">
+            <span class="date">JAN 02, 2019</span>
+            <span class="category">EVENT</span>
+          </div>
+          <h3 class="post-title">Learn How To Motivate Yourself</h3>
+          <p class="post-excerpt">How many free autoresponders have you tried? And how many emails did you get through
+            using them?</p>
+          <a href="#" class="read-more">→</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-image">
+          <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/3.jpg" alt="Hotel Sign">
+        </div>
+        <div class="blog-content">
+          <div class="meta-data">
+            <span class="date">JAN 02, 2019</span>
+            <span class="category">EVENT</span>
+          </div>
+          <h3 class="post-title">What If Let You Run The Hubble</h3>
+          <p class="post-excerpt">My point here is that if you have no clue for the answers above you probably are not
+            operating a followup.</p>
+          <a href="#" class="read-more">→</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <div class="blog-image">
+          <img src="https://preview.colorlib.com/theme/roberto/img/bg-img/4.jpg" alt="Person on Bed">
+        </div>
+        <div class="blog-content">
+          <div class="meta-data">
+            <span class="date">JAN 02, 2019</span>
+            <span class="category">EVENT</span>
+          </div>
+          <h3 class="post-title">Six Pack Abs The Big Picture</h3>
+          <p class="post-excerpt">Some good steps to take to ensure you are getting what you need out of a autoresponder
+            include...</p>
+          <a href="#" class="read-more">→</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact">
+    <div class="left">
+      <h2>Contact Us Now!</h2>
+      <p>Contact (+12) 345-678-9999 to book directly or for advice</p>
+    </div>
+    <div class="right">
+      <button>Contact Now</button>
+    </div>
+  </div>
+
+  <div class="logos">
+    <img src="images/p1.png" alt="abcd">
+    <img src="images/p2.png" alt="abcd">
+    <img src="images/p3.png" alt="abcd">
+    <img src="images/p4.png" alt="abcd">
+    <img src="images/p5.png" alt="abcd">
+
+  </div>
+
+
+  <footer class="roberto-footer">
+    <div class="footer-content">
+      <div class="footer-col contact-info">
+        <h2>Roberto</h2>
+        <p>+12 345-678-9999</p>
+        <p>info.colorlib@gmail.com</p>
+        <p class="address">856 Cardia Extension Apt. 356, Lake Deangeloburgh, South Africa</p>
+      </div>
+
+      <div class="footer-col blog-links">
+        <h3>Our Blog</h3>
+        <a href="#">Freelance Design Tricks How</a>
+        <p class="date">Jan 02, 2019</p>
+        <a href="#">Free Advertising For Your Online</a>
+        <p class="date">Jan 02, 2019</p>
+      </div>
+
+      <div class="footer-col navigation-links">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Room</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col newsletter">
+        <h3>Subscribe Newsletter</h3>
+        <p>Subscribe our newsletter ger got notification about new updates.</p>
+        <form action="#">
+          <input type="email" placeholder="Enter your email..">
+          <button type="submit">GO</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Copyright ©2025 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by Colorlib
+      </p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
